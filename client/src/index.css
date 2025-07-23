@@ -19,6 +19,13 @@
   --sidebar-border: hsl(220 13% 91%);
   --sidebar-ring: hsl(217.2 91.2% 59.8%);
 }
+.reset-tw, .reset-tw *{
+  all : revert !important;
+}
+
+.cl-drawRoot {
+  z-index : 10;
+}
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
