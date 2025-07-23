@@ -34,7 +34,7 @@ const BlogTitles = () => {
           ))}
         </div>
         <br />
-        <Button className='w-full'>
+        <Button className='w-full text-[#bc85f7] cursor-pointer'>
           <Hash className='w-5'/>
           Generate Title
         </Button>
@@ -43,7 +43,7 @@ const BlogTitles = () => {
         {/* Right Col */}
         <div className='w-full max-w-lg p-4 bg-white rounded-lg flex flex-col border border-gray-200 min-h-96 max-h-[600px]'>
             <div className='flex items-center gap-3'>
-              <Edit className='w-5 h-5 text-[#8E37EB]' />
+              <Hash className='w-5 h-5 text-[#8E37EB]' />
               <h1 className='text-xl font-semibold'>Generated Titles</h1>
             </div>
             <div className='flex-1 flex justify-center items-center'>

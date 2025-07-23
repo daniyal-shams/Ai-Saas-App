@@ -37,7 +37,7 @@ const WriteArticle = () => {
           ))}
         </div>
         <br />
-        <Button className='w-full'>
+        <Button className='w-full text-[#7b9efe] cursor-pointer'>
           <Edit className='w-5'/>
           Generate article
         </Button>
