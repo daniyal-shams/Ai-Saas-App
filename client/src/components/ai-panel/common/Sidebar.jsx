@@ -19,8 +19,8 @@ const navItems = [
   { to: "/ai/blog-titles", label: "Blog Titles", Icon: Hash },
   { to: "/ai/generate-images", label: "Generate Images", Icon: Image },
   { to: "/ai/remove-background", label: "Remove-background", Icon: Eraser },
-  { to: "/ai/remove-object", label: "Review Object", Icon: Scissors },
-  { to: "/ai/review-resume", label: "Remove Resume", Icon: FileText },
+  { to: "/ai/remove-object", label: "Remove Object", Icon: Scissors },
+  { to: "/ai/review-resume", label: "Review Resume", Icon: FileText },
   { to: "/ai/community", label: "Community", Icon: Users },
 ];
 
